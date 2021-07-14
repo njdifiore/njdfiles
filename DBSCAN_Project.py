@@ -269,34 +269,7 @@ def main():
     print('Core Points: ', corePoints)
     print('Border Points: ', borderPoints)
     print('Noise Points: ', noisePoints)
-    
-    '''
-    Loop through every 
-    '''
-    
-    '''
-    if clusterOrNoise[0] == "Non Core":
-        nonCorePoints.append(clusterOrNoise[2])
-        
-    elif clusterOrNoise[0] == "Core":
-        corePoints.append(clusterOrNoise[2])
-    
-    print(clusterOrNoise[0])
-    
-    print('Visited Player: ',playerName[visitedPoints[0]])
-    
-    if (clusterOrNoise[0] == "Core"):
-        neighborhood = findNeighborhoodPoints(visitedPoints[0],players)
-        neighbors = []
-        for x in neighborhood:
-            neighbors.append(playerName[x])
-        print('Neighbors: ',neighbors) 
-        
-    else:
-        print("{} is NOISE".format(playerName[visitedPoints[0]]))
-        
-    print(clusterOrNoise[1])
-    '''   
+   
         
     
 if __name__ == "__main__":
