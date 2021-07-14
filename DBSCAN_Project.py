@@ -302,29 +302,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-"""
-    1. Run point through isCore
-    2. If "Core" 
-        a. Find all points that are within n distance of that point --> findNeighborhoodPoints
-        b. Pass all values from neighborhood into isCore --> i.e. return to step 1 --> RECURSION!!!
-            - for player in neighbors:
-                    value = isCore(x,y)
-                    if value[0] == "Non Core":
-                        it is a border point
-                    if value[0] == "Core":
-                        it is also a core point --> not sure what to do here exactly
-    3. If "Non Core" 
-        b. Check if next item in r is in visitedPoints
-            - If it is not, run it through isCore
-            - If it is, keep checking next item until you get one that has not been visited yet
-        a. Go to next index in r and run isCore for that one
-
-        
-    How are you going to track which points have been visited?
-        The list of random numbers simply gets you started it has no relation to any other list 
-"""
-# create a list but remove the element that has already been visited and run that through isCore()
-
 
 
 
